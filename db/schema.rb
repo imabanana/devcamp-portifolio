@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 20170626143749) do
     t.string "title"
     t.string "subtitle"
     t.text "body"
+    t.text "label"
     t.text "main_image"
     t.text "thumb_image"
     t.datetime "created_at", null: false
