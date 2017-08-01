@@ -68,4 +68,3 @@ class PortfoliosController < ApplicationController
     @portfolio_item = Portfolio.find(params [:id])
   end
 end
-end
